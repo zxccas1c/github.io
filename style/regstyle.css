@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  background-image: linear-gradient(to right bottom, rgba(111, 206, 213, 0.8), rgba(8, 79, 172, 0.8)), url(../img/header.jpg);
+}
+
+a {
+  color: #66aef1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: unset;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  outline: none;
+  background: transparent;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: unset;
+  cursor: pointer;
+}
+
+.msg {
+  border: 2px solid #fcfcfc;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logout {
+  color: #b7625c;
+}
+
+.regform{
+  background-color: rgba(0, 0, 0, 0.7) ;
+    margin: 30px 100px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
